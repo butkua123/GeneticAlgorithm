@@ -130,6 +130,5 @@ public class GeneticAlgorithm {
       long endTime = System.currentTimeMillis();
       System.out.printf("Found solution in %d generations and %d ms\n", generation, endTime - startTime);
       System.out.println("Solution: " + best.genes);
-  }
-  
+  }  
 }
